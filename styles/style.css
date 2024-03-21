@@ -1,0 +1,154 @@
+/* :root {
+  --text-primary: #3c3e4a;
+  --text-secondary: #7c8391;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 80px 15px 80px 15px;
+  margin: 0 auto;
+}
+.banner-title {
+  max-width: 724px;
+}
+.banner-title h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+  font-family: "Poppins", sans-serif;
+  color: #3c3e4a;
+}
+.banner-description {
+  max-width: 596px;
+  padding-top: 12px;
+}
+.banner-description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6f7681;
+  font-family: "lato", sans-serif;
+}
+.banner-btn {
+  padding: 40px 0 0 0;
+}
+.banner-btn a {
+  margin-top: 20px;
+  padding: 16px 40px;
+  background-color: #201cfe;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* benefit section */
+.benefit-text-wrapper {
+  padding-bottom: 60px;
+}
+.benefit-title {
+  max-width: 723px;
+  margin: 0 auto;
+}
+.benefit-title h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "Poppins", sans-serif;
+  color: #3c3e4a;
+  text-align: center;
+}
+.benefit-title h2 span {
+  color: #201cfe;
+}
+.benefit-description {
+  max-width: 590px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+.benefit-description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #6f7681;
+  font-family: "lato", sans-serif;
+}
+
+/* benefit cards */
+.card-row-1 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 30px;
+}
+.woocommerce-card {
+  padding: 40px;
+  background: linear-gradient(
+    to top left,
+    rgba(208, 207, 255, 0.5) 0%,
+    rgba(208, 207, 255, 0.5) 100%
+  );
+  border-radius: 5px;
+}
+.woocommerce-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.woocommerce-card-title {
+  max-width: 370px;
+}
+.woocommerce-card-title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  font-family: "Poppins", sans-serif;
+  color: #3c3e4a;
+}
+.woocommerce-card-description {
+  max-width: 509px;
+  padding-top: 12px;
+}
+.woocommerce-card-description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "lato", sans-serif;
+  color: #6f7681;
+}
+/* savings card */
+.savings-card {
+  padding: 40px;
+  background: #def5ff;
+  border-radius: 5px;
+}
+.savings-card-title {
+  max-width: 378px;
+}
+.savings-card-title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  font-family: "Poppins", sans-serif;
+  color: #3c3e4a;
+}
+.savings-card-description {
+  max-width: 433px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.savings-card-description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "lato", sans-serif;
+  color: #6f7681;
+}
